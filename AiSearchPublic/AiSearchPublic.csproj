@@ -33,6 +33,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="C5">
+      <HintPath>..\..\..\..\..\Desktop\AIslides\C5\C5.NET35\bin\Release\C5.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -45,12 +48,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="C5PriorityQueue8PTests.cs" />
     <Compile Include="EightPuzzleTests.cs" />
     <Compile Include="EightPuzzle\DLSNode.cs" />
     <Compile Include="EightPuzzle\Node.cs" />
     <Compile Include="Jugs\DLSNode.cs" />
     <Compile Include="Jugs\Node.cs" />
     <Compile Include="Jugs\Problem.cs" />
+    <Compile Include="EightPuzzle\PQNode.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
